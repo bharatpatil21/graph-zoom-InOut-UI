@@ -1,0 +1,8 @@
+<ejs-chart id="chart-container" [primaryXAxis]='primaryXAxis' [primaryYAxis]='primaryYAxis' [title]='title'
+	[zoomSettings]='zoom' [legendSettings]='legend' *ngIf="chartData.length > 0">
+	<e-series-collection>
+		<e-series [dataSource]='chartData' type='Area' xName='x' yName='y' name='Product X' [border]='border'
+			[animation]='animation' opacity=0.3></e-series>
+	</e-series-collection>
+</ejs-chart>
+<div *ngIf="chartData.length == 0">No Data found</div>
