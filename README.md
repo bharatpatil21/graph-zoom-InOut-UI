@@ -12,10 +12,10 @@ $ npm install -g @angular/cli
 
 ## 2. Clone repository
 
-Use the [CLONE](https://github.com/bharatpatil21/myState-UI.git) 
+Use the [CLONE](https://github.com/bharatpatil21/graph-zoom-InOut-UI.git) 
 
 ```bash
-$ git clone https://github.com/bharatpatil21/myState-UI.git
+$ git clone https://github.com/bharatpatil21/graph-zoom-InOut-UI.git
 ```
 
 ## 3. Install package
